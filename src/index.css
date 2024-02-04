@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Migontama;
+    src: url(./fonts/Migontama-Regular.ttf);
+   
+}
+
+@font-face {
+    font-family: Nats;
+    src: url(./fonts/NATS-Regular.ttf);
+   
+}
+
+.slick-slide > div{
+    margin: 0 10px;
+}
+
+.button {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 24px;
+    border: 1px solid #ffffff;
+    border-radius: 22px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+  
+  .button:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #000000;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button:hover {
+    color: #ffffff;
+    border: 1px solid #000000;
+  }
+  
+  .button:hover:before {
+    top: -35%;
+    background-color: #000000;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button:hover:after {
+    top: -45%;
+    background-color: #000000;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
