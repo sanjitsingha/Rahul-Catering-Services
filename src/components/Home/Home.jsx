@@ -1,11 +1,14 @@
 import React from "react";
-import BackGround from "../../../public/Images/Hero.png";
+import BackGround from "../../../public/Images/HeroBg.png";
 // import Button from "../Button";
 import Button from "../anmatedBtn";
 const Home = () => {
   return (
     <div className="w-full ">
-      <div className="bg-[url('../../../public/Images/HeroBg.png')] w-full h-[460px] text-center  bg-no-repeat flex items-center md:items-start justify-center p-4 md:p-10 flex-col md:text-left">
+      <div  style={{
+      backgroundImage: `url(${BackGround})`,
+    }}
+       className="w-full h-[460px] text-center  bg-no-repeat flex items-center md:items-start justify-center p-4 md:p-10 flex-col md:text-left">
         <h1 className="  font-mig text-[50px] md:text-[70px] leading-[45px] text-white md:leading-[70px]">
           Good Serving makes <br className="hidden md:block" /> food more Tasty.
         </h1>

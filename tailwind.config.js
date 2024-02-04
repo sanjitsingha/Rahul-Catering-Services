@@ -11,6 +11,9 @@ export default {
         primary:["#06502B"],
         secondary:["#0B9C54"]
       },
+      backgroundImage:{
+        herobg:["./public/Images/HeroBg.png"]
+      },
     },
   },
   plugins: [],
