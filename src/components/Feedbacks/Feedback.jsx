@@ -79,30 +79,26 @@ const Feedback = () => {
 };
 const data = [
   {
-    name: "Sanjit Singh",
+    name: "Biswajit Singha",
     content:
-      "This is a content of Feedback given by Sanjit Singha from India, West Bengal.",
+      "Extremely loved the services ... great work ",
   },
   {
-    name: "Ranjit Singh",
+    name: "Bishnu Roy",
     content:
-      "This is a content of Feedback given by Sanjit Singha from India, West Bengal.",
+      "serives khub darun, caterers der modhe cordination khubi valo",
   },
   {
-    name: "Rahul Dev",
+    name: "Rama Barman",
     content:
-      "This is a content of Feedback given by Sanjit Singha from India, West Bengal.",
+      "very affaordable and best serivces ",
   },
   {
-    name: "Kapil Sharma",
+    name: "Pabitra Singha",
     content:
-      "This is a content of Feedback given by Sanjit Singha from India, West Bengal.",
+      "khub valo laglo Rahul Catering er services",
   },
-  {
-    name: "Tanu Singha",
-    content:
-      "This is a content of Feedback given by Sanjit Singha from India, West Bengal.",
-  },
+ 
 ];
 
 export default Feedback;
