@@ -16,8 +16,7 @@ const midsec = () => {
           and Affordable.
         </h1>
         <p className="mt-4 px-5 text-primary-0 font-nats leading-3 text-md uppercase  ">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Omnis
-          modi quod 
+          Here is the list of all services rahul catering provides. 
         </p>
       </div>
 

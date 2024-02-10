@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 const OurTeam = () => {
   return (
     <div className='bg-gray-200'>
-        <div className='flex md:p-[40px] p-[20px] justify-center gap-[50px] flex-col md:flex-row items-center md:items-start '> 
+        <div className='flex md:p-[40px] p-[20px] justify-center gap-[10px] md:gap-[50px] flex-col md:flex-row items-center md:items-start '> 
             <div className='relative '>
                 <div className='absolute -top-3 left-2 text-[40px] text-primary-0'>
                 <FaBookmark />
@@ -14,9 +14,9 @@ const OurTeam = () => {
             </div>
             <div className='md:w-1/2 text-center md:text-start'>
                 <h1 className='text-primary-0 font-mig text-[60px]'>Our Team.</h1>
-                <p className='font-nats text-[20px] text-primary-0'>Rahul Singha Catering Services is more than just a culinary venture; it is a tight-knit family of passionate individuals dedicated to making every celebration a memorable and gastronomic experience. At the heart of this flourishing enterprise is a team of dynamic and hardworking individuals, each contributing their unique skills and talents to create a harmonious and efficient working environment.</p>
+                <p className='font-nats text-[20px] text-primary-0 leading-6'>Rahul Singha Catering Services is more than just a culinary venture; it is a tight-knit family of passionate individuals dedicated to making every celebration a memorable and gastronomic experience. At the heart of this flourishing enterprise is a team of dynamic and hardworking individuals, each contributing their unique skills and talents to create a harmonious and efficient working environment.</p>
                 <br />
-                <p className='font-nats text-[20px] text-primary-0'>Rahul Singha, the driving force behind the catering service, has carefully handpicked a group of individuals who share his vision for culinary excellence and impeccable service. The team comprises seasoned chefs, diligent servers, and meticulous event coordinators, all working in unison to transform ordinary events into extraordinary celebrations.</p>
+                <p className='font-nats text-[20px] text-primary-0 leading-6'>Rahul Singha, the driving force behind the catering service, has carefully handpicked a group of individuals who share his vision for culinary excellence and impeccable service. The team comprises seasoned chefs, diligent servers, and meticulous event coordinators, all working in unison to transform ordinary events into extraordinary celebrations.</p>
 
                 <div className='mt-10 bg-primary-0 md:w-[150px] h-[40px] rounded-3xl text-white font-mig text-[18px] cursor-pointer flex items-center justify-center'>
                 <NavLink to={'our-team'}>

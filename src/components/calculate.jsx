@@ -14,14 +14,13 @@ const calculate = () => {
             Calculate
           </h2>
           <p className=" text-primary-0 font-nats leading-3 text-md uppercase ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{" "}
-            Placeat, sit.
+            This calculate function helps you to get the catering budget for your event.
           </p>
           <div className="md:flex md:gap-5">
             <input
               type="number"
-              className=" [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none mt-4 text-md w-full py-2 px-2 rounded-lg font-nats text-[22px] text-bold focus:outline-primary-0 bg-gray-200"
-              placeholder="Enter the amount of the Guest"
+              className=" [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none mt-4 text-md w-full py-2 px-2 rounded-lg font-nats md:text-[22px] text-bold focus:outline-primary-0 bg-gray-200"
+              placeholder="Enter the number of the Guest"
               onChange={(e) => setInput(e.target.value)}
             />
             <button
