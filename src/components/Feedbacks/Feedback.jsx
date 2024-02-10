@@ -9,7 +9,7 @@ const Feedback = () => {
   const settings = {
     infinite: true,
     speed:2000,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed:3000,
     slidesToShow: 3,
     slidesToScroll: 2,
