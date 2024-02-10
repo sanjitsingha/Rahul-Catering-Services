@@ -8,7 +8,7 @@ const calculate = () => {
 
   return (
     <div className=" w-full flex justify-center align-middle items-center mt-20 mb-20 ">
-      <div className=" w-[80%] md:w-[60%] p-4 md:p-10 ">
+      <div className=" w-[95%] md:w-[60%] p-2 md:p-10 ">
         <div className="bg-white p-4 md:p-10 rounded-lg shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] ">
           <h2 className="text-pimary-0 font-mig text-[50px] md:text-[70px] text-primary-0">
             Calculate
