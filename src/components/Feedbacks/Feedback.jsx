@@ -38,7 +38,7 @@ const Feedback = () => {
       <div className="flex flex-col text-center items-center">
         <h1 className="font-mig text-[50px] md:text-[70px] text-primary-0">Reviews</h1>
         <p className=" text-primary-0 font-nats leading-3 text-md uppercase ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Have a glimps of the review gave by our client.
         </p>
         <div className="bg-white flex items-center  px-6 rounded-2xl w-fit p-2 text-[20px] gap-2 justify-center text-[#FFC802] shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] mt-4">
           <FaStar />
