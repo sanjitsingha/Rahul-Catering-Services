@@ -14,7 +14,7 @@ const Home = () => {
         </h1>
         <p className="font-nats uppercase md:text-[20px] mt-3 leading-5 text-[18px] text-white/70 md:leading-5">
           
-          At Rahul Singha Catering Services, we believe that <br />
+          At Rahul Catering Services, we believe that <br />
            good serving doesn't just enhance the taste of food; it transforms every meal into a memorable experience. 
         </p>
         <div className="md:hidden mt-4">
