@@ -10,7 +10,7 @@ const calculate = () => {
 
   const handleButtonClick = () => {
     let multipliedResult;
-    if (number > 3000) {
+    if (number >= 3000) {
       multipliedResult = number * 6;
     } else {
       multipliedResult = number * 8;
